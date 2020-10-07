@@ -1,4 +1,4 @@
-# php-basico-ao-intermediario
+# PHP básico-ao-intermediario
  Este curso foi criado para alunos que estão iniciando em programação, ou até mesmo migrando de uma outra linguagem.  
 Todo o material foi desenvolvido com foco em ensinar cada funcionalidade básica do PHP de forma individual. 
 O curso possui várias aulas que abordam funcionalidades básicas, na qual também será aplicada com exemplos reais e funcionais de aplicações em produção.  
