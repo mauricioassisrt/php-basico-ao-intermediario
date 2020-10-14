@@ -23,9 +23,30 @@
     //     echo $value;
     // }
 
-    foreach ($arrayFrutas as $key => $value) {
-        echo "A chave é ".$key. " O valor é ". $value." <br/>" ;
+    // foreach ($arrayFrutas as $key => $value) {
+    //     echo "A chave é ".$key. " O valor é ". $value." <br/>" ;
+    // }
+
+
+    $arrayNotas = [
+        "aluno1"=> [
+            "nome"=> "Maicon",
+            "nota"=> 7
+        ], 
+        "aluno2"=>[
+            "nome"=> "Maria",
+            "nota"=> 2  
+        ]
+        
+    ];
+
+    foreach ($arrayNotas as $aluno) {
+        foreach ($aluno as $key => $value) {
+            echo "{$key}  = {$value} <br/>";
+        }
+        echo "<br/>";
     }
+
     ?>
 </body>
 </html>
